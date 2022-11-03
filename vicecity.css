@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: url(kepek/raklo.jpg);
+   /* display: inline; */
+}
+
+main{
+    /* background-color: #000; */
+    margin:0 25%;
+    border: 1px solid red;
+    padding: 20px;
+    height: 95.55vh;
+}
+@media screen and (max-width: 600px) {
+    
+}

@@ -1,0 +1,32 @@
+html{
+    background-image: url(kepek/9195f4dd1b69f90038f627c8af422429.gif);
+}
+.fejlec h1 {
+        font-family: monospace;
+        color: red;
+         
+        
+
+}
+
+/* body {
+     background-color: rgb( 10, 28, 36 ); 
+
+} */
+
+.tartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+@media only screen and (max-width: 600px) {
+    .tartalom{
+        grid-template-columns: 1fr;
+    }
+}
